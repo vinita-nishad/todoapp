@@ -1,0 +1,57 @@
+<main class="mylist-page container-fluid">
+
+<div class="row mylist-row">
+
+<div class="list-sidebar active" id="list-sidebar-wrapper">
+	<i class="fas fa-bars" id="sidebar-toggle"></i>
+	<div id="list-sidebar">
+		<h3>Choose Category</h3>
+		<ul id="categories">
+			<li id="all" class="active">
+				<a onclick='showItems("All")'>
+					<i class="fas fa-clipboard-list sidebar-icon"></i>
+					<span class="sidebar-category">All</span>
+				</a>
+			</li>
+			<li id="pending">
+				<a onclick='showItems("Pending")'>
+					<i class="fas fa-bullseye sidebar-icon"></i>
+					<span class="sidebar-category">Pending</span>
+				</a>
+			</li>
+			<li id="done">
+				<a onclick='showItems("Done")'>
+					<i class="fas fa-check-square sidebar-icon"></i>
+					<span class="sidebar-category">Done</span>
+				</a>
+			</li>
+			<li id="deleted">
+				<a onclick='showItems("Deleted")'>
+					<i class="fas fa-times-circle sidebar-icon"></i>
+					<span class="sidebar-category">Deleted</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="list-div" id="list-div">
+
+	<ul id="list">
+		 
+	</ul>
+
+	<div class="list-new">
+		<input type="text" id="list-new-input" placeholder="Add new item...">
+		<span onclick="addElement()" id="list-new-button" class="addBtn">Add</span>
+	</div>
+
+</div>
+
+</div>
+
+</main>
+
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/mylist.css">
+<script type="text/javascript" src="/javascripts/mylist.js"></script>

@@ -1,0 +1,61 @@
+.index-page {
+	margin-top: 30px;
+}
+
+.description-list {
+	padding: 50px;
+	background-color: #f4f4f8;
+	border-radius: 20px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+.description-list h1 {
+	font-weight: bold;
+	margin-bottom: 30px;
+	color:black;
+}
+
+.description-list i {
+	color: #2755d7;
+}
+
+.description-list ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.description-list li {
+	margin-top: 20px;
+}
+
+.description-list .app-button {
+	margin-top: 30px;
+	background-color:#3B444B;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.description-list a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.description-list .app-button:hover {
+	background-color: black;
+	box-shadow: 0 0 4px #000000;
+}
+
+.description-image {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+}
+
+.description-image img {
+	max-width: 60%;
+}
